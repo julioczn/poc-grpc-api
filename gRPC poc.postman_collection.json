@@ -23,6 +23,54 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "http://localhost:3000/customers",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n    \"name\": \"julio\",\n    \"age\": 29\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/customers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"customers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/customers/54ab8357-3c33-43b6-ad21-4d3bd80d266b",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/customers/54ab8357-3c33-43b6-ad21-4d3bd80d266b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"customers",
+						"54ab8357-3c33-43b6-ad21-4d3bd80d266b"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
