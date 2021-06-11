@@ -1,0 +1,39 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 12
+    },
+    "rules": {
+      "comma-dangle": ["error", {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "never"
+      }],
+      "indent": ["error", 2],
+      "prefer-template": "error",
+      "no-console": 1,
+      "no-var": 0,
+      "space-before-function-paren": 0,
+      "quotes": ["error", "single"],
+      "semi": "error",
+      "newline-before-return": 2,
+      "arrow-body-style": 0,
+      "linebreak-style": "off",
+      "eqeqeq": "error",
+      "eol-last": ["error", "always"],
+      "no-mixed-spaces-and-tabs": "error",
+      "no-trailing-spaces": "error",
+      "no-whitespace-before-property": "error",
+      "comma-spacing": 1,
+      "array-bracket-spacing": ["error", "always"],
+      "object-curly-spacing": ["error", "always"],
+      "no-multi-spaces": "error"
+    }
+}
